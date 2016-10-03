@@ -193,3 +193,9 @@ body {
 	display: inline-block;
 	width: 150px;
 }
+
+img{
+	float: left;
+	width: 90;
+	height: 120;
+}

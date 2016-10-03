@@ -18,172 +18,152 @@
 			<form class="form-container" action="">
 				<input id="search-keyword" type="text" class="search-field" onfocus="this.value='';" value="Search iTunes..." />
 				<div class="button-container">
-					<input id="search-button" type="button" value="" class="button" onclick="itunesSearch()" />
+					<input id="search-button" type="button" value="" class="button" onclick="itunesSearch();" />
 				</div>
 			</form>
 			<div class="popup">
 				<p>Please fill out this field.</p>
 			</div>
 		</div>
-		<div id="page01" class="container-fluid">
+		<div class="container-fluid">
+			<div id="page00">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="youtube-results01" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page01">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results01" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page02">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results02" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page03">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results03" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page04">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results04" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page05">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results05" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page06">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results06" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page07">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results07" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page08">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results08" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page09">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results09" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page10">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results10" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page11">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results11" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+			<div id="page12">
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div id="itunes-results12" class="col-sm-8"></div>
+					<div class="col-sm-2"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="container-fluid">
 			<div class="row">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
+					<div class="col-sm-1">
+							<input id="page-button01" type="button" value="1" style="color:black; font-size:large;" class="button" onclick="changePage('page01')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button02" type="button" value="2" style="color:black; font-size:large;" class="button" onclick="changePage('page02')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button03" type="button" value="3" style="color:black; font-size:large;" class="button" onclick="changePage('page03')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button04" type="button" value="4" style="color:black; font-size:large;" class="button" onclick="changePage('page04')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button05" type="button" value="5" style="color:black; font-size:large;" class="button" onclick="changePage('page05')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button06" type="button" value="6" style="color:black; font-size:large;" class="button" onclick="changePage('page06')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button07" type="button" value="7" style="color:black; font-size:large;" class="button" onclick="changePage('page07')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button08" type="button" value="8" style="color:black; font-size:large;" class="button" onclick="changePage('page08')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button09" type="button" value="9" style="color:black; font-size:large;" class="button" onclick="changePage('page09')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button10" type="button" value="10" style="color:black; font-size:large;" class="button" onclick="changePage('page10')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button11" type="button" value="11" style="color:black; font-size:large;" class="button" onclick="changePage('page11')" />
+					</div>
+					<div class="col-sm-1">
+							<input id="page-button12" type="button" value="12" style="color:black; font-size:large;" class="button" onclick="changePage('page12')" />
+					</div>
 				</div>
 				<div class="col-sm-2"></div>
 			</div>
-		</div>
-		<div id="page02" class="container-fluid">
 			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
+				<p class="col-sm-12">itunes Search</p>
 			</div>
-		</div>
-		<div id="page03" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page04" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page05" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page06" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page07" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page08" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page09" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page10" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page11" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="page12" class="container-fluid">
-			<div class="row">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div id="itunes-results01" class="col-sm-12 col-lg-6"></div>
-					<div id="itunes-results02" class="col-sm-12 col-lg-6"></div>
-				</div>
-				<div class="col-sm-2"></div>
-			</div>
-		</div>
-		<div id="footer">
-			<div class="button-container">
-				<input id="page-button01" type="button" value="1" class="" onclick="changePage('page01')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button02" type="button" value="2" class="" onclick="changePage('page02')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button03" type="button" value="3" class="" onclick="changePage('page03')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button04" type="button" value="4" class="" onclick="changePage('page04')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button05" type="button" value="5" class="" onclick="changePage('page05')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button06" type="button" value="6" class="" onclick="changePage('page06')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button07" type="button" value="7" class="" onclick="changePage('page07')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button08" type="button" value="8" class="" onclick="changePage('page08')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button09" type="button" value="9" class="" onclick="changePage('page09')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button10" type="button" value="10" class="" onclick="changePage('page10')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button11" type="button" value="11" class="" onclick="changePage('page11')" />
-			</div>
-			<div class="button-container">
-				<input id="page-button12" type="button" value="12" class="" onclick="changePage('page12')" />
-			</div>
-
-			<br/>itunes Search
 		</div>
 		<script src="itunesSearch.js"></script>
 	</body>
